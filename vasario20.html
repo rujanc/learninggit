@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <style media="screen">
+      .blue{
+        background: blue;
+      }
+      .red{
+        background: red;
+      }
+    </style>
+    <p id="p">Labas</p>
+    <p class="class">Labas rytas</p>
+    <button class="blue red" id="btn" type="button" name="button">Spausk</button>
+    <div id="box">
+        <p id="p1">Mano tekstas</p>
+        <p id="p2">Mano tekstas labai originalus</p>
+    </div>
+    <script type="text/javascript">
+
+    let paragraph = document.createElement('p');
+    let node = document.createTextNode('Mano tekstas buvo trys')
+    paragraph.appendChild(node);
+    let p1 = document.getElementById('p1');
+    document.getElementById('box').insertBefore(paragraph, p1);
+
+
+    function scrollToView(x){
+      document.querySelector(x).scrollIntoView({behavior: 'smooth'});
+    }
+    onclick="scrollToView(this.name)" name="#nav"
+
+
+
+
+// ///////////////////////////
+//     let car = {
+//       name: "Volvo",
+//       model: "S90",
+//       year: "2012",
+//       print: function(){
+//         console.log(this.name + " " + this.model + " " + this.year)
+//       }
+//     };
+//
+//     car.print();
+// ////////////////////////////////////
+
+  // document.getElementById('p').innerHTML = "Hello world";
+  //
+  // document.querySelector('#p').innerHTML = "Liabas";
+  //
+  // let p = document.getElementById('p');
+  // console.log(p);
+  // p.innerHTML += "Hello World";
+  //
+  //
+  // document.getElementsByClassName("class")[0].innerHTML = "Viso gero";
+  //
+  //
+  // let btn = document.getElementById('btn');
+  // let text = document.getElementById('p');
+  // btn.addEventListener("click", changeText);
+  // function changeText(){
+  //   document.getElementsByClassName("class")[0].innerHTML = "Something";
+  //   console.log("click");
+  // }
+
+//
+//   let btn = document.getElementById("btn");
+//   btn.addEventListener("click", changeColor);
+//   let color;
+//   function changeColor(){
+//     btn.classList.toggle('red')
+//     btn.classList.add('red')
+//     btn.classList.remove('red')
+//     // if (btn.style.background !== "red") {
+//     //   btn.style.background = "red"
+//     // }
+//     // else {
+//     //   btn.style.background = "blue"
+//     // }
+//
+//
+// }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+  </body>
+</html>

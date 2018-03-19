@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-in {
+  width: 90%;
+}
+img {
+  height: 150px;
+}
+.box {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.bg {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+.text {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.text-cont {
+  display: flex;
+  justify-content: center;
+}
+img {
+  margin-left: 16px;
+  margin-top: 10px;
+  border-radius: 3px;
+}

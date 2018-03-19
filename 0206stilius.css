@@ -1,0 +1,31 @@
+/* .aboutme {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.media-object {
+  width: 200px;
+}
+.media {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.containermedia {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+} */
+.jumbotron {
+  background-image: url(http://qige87.com/data/out/163/wp-image-142623545.png);
+}
+.media-body{
+  padding-top: 50px;
+}

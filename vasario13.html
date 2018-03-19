@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vasario 13</title>
+  </head>
+  <body>
+    <button id="button" type="button" name="button">Spausk</button>
+    <script>
+
+//     let x = Number (prompt('Iveskite prekes kaina'));
+//     let y = prompt('Ar reikalingas pristatymas i namus? (taip/ne)');
+//     let w = x + 20;
+//
+//     if(y === 'ne'){
+//       console.log("Prekės kaina: " + x +
+// ". Prekę galite atsiimti nemokamai Vilniuje adresu Gedimino pr. 1a")
+//     }
+//     else{
+//       let z = prompt('I kuri miesta reikes pristatyti?')
+//       if(z == "Vilnius" || x >= 50){
+//         console.log("Prekės kaina : " + x +
+//   ". Prekę nemokamai pristatysime į " + z + " per 1-3 dienas.")
+//       }
+//       else{
+//         console.log("Prekės kaina : " + x + "Pristatymas: 20eu. " + "Iš viso: " + w + "Prekę pristatysime į " + z + " per 1-3 dienas.")
+//       }
+//     }
+
+      // let x = Number (prompt("Atspek skaiciu"));
+      //
+      // if(x == 666){
+      //   console.log("Tu teisus")
+      // }
+      // else if(x > 666){
+      //   console.log("Perdaug")
+      // }
+      // else if(x < 666){
+      //   console.log("Permazai")
+      // }
+      // else{
+      //   console.log("Iveskite skaiciu")
+      // }
+
+
+      // CIKLAS
+
+      // let x = -11;
+      // while(x < 19){
+      //   x++;
+      //   console.log(x);
+      // }
+
+      // let y = 10
+      // while(y < 40){
+      // y+=2;
+      // console.log(y)
+      // }
+
+      // let num = 300;
+      // while(num <= 333){
+      //   if(num%2 !== 0){
+      //   console.log(num);
+      // }
+      //   num+=1
+      // }
+
+    //   let z = 5;
+    //   while(z <= 50){
+    //     if(z%5 == 0 && z%3 == 0){
+    //     console.log(z);
+    //   }
+    //   z++
+    // }
+
+
+    // let x = Number (prompt("Atspek skaiciu"));
+    // let secret = 666;
+    // while(x !== secret){
+    //   if(x > secret){
+    //     alert("Perdaug");
+    //     x = Number (prompt("Atspek skaiciu"));
+    //   }
+    //   else{
+    //     alert("Permazai");
+    //     x = Number (prompt("Atspek skaiciu"));
+    //   }
+    // }
+    //   alert("Tu teisus");
+
+    // let x = 10;
+    // for (let i = 0; i < x; i++){
+    //   console.log(i);
+    // }
+
+    // let x = 19;
+    // for (let i = -10; i <= x; i++){
+    //   console.log(i);
+    // }
+
+      // let x = 40;
+      // for (let i = 10; i <= x; i+=2){
+      //   console.log(i);
+      // }
+
+
+      // let x = 333;
+      // for (let i = 300; i <= x; i++){
+      //    if(i%2 !== 0){
+      //     console.log(i);
+      //   }
+      // }
+
+      // let x = 50;
+      // for (let i = 5; i <= x; i++){
+      //   if(i%5 == 0 && i%3 == 0){
+      //     console.log(i);
+      //   }
+      // }
+
+      // let x = 100;
+      // let y = "";
+      // for (let i = 0; i < x; i++){
+      //     y += "*"
+      //       console.log(y);
+      //
+      // }
+
+      let button = document.getElementById('button');
+      let colors = ['red', 'yellow', 'black', 'blue', 'indigo', 'violet', 'orange'];
+
+      function change(){
+        document.body.style.background = colors [Math.floor(7*Math.random())];
+
+      }
+      button.addEventListener('click', change);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-in {
+  width: 90%;
+}
+.box {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 10px;
+}
